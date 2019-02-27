@@ -1,0 +1,39 @@
+{
+    "name": "journalctl/national-id-validator",
+    "description": "Iranian National id validator",
+    "keywords": [
+        "iranian",
+        "national id",
+        "validator",
+        "laravel",
+        "lumen"
+    ],
+    "homepage": "https://github.com/journalctl/national-id-validator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yusef Arianpour",
+            "email": "info@asign.ir"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "~5.5.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Journalctl\\NationalIdValidator\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Journalctl\\NationalIdValidator\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
